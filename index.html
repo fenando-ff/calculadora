@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon_calculadora.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="form">
+        <h2 class="titulo">Calculadora de Operações</h2>
+        <div class="d-form">
+        <div class="campo">
+            <label class="label" for="n1">Primeiro número:</label>
+            <input class="numero" id="n1" type="number">
+        </div>
+
+        <div class="campo">
+            <label class="label" for="n2">Segundo número:</label>
+            <input class="numero" id="n2" type="number">
+        </div>
+        
+        <div class="campo">
+            <label class="label" for="operacao">Operações:</label>
+            <select class="numero" name="" id="operacao">
+                <option value="soma">Soma</option>
+                <option value="sub">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="divi">Divisão</option>
+            </select>
+        </div>
+        </div>
+
+        <div class="d-form campo">
+            <div class="botoes">
+                <button class="numero botao" onclick="calcular()">Calcular</button>
+                <button class="numero botao" onclick="limpar()">Limpar</button>
+            </div>
+            
+            <output id="resultado"></output>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
