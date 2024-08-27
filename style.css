@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --primary-color:  #004051;
     --second-color: #005968;
     --threeth-color:#00ffea;
     --fourth-color: #00808b;
     --fifth-color: #00b7b7;
-}
-* {
-    margin: 0;
-    padding: 0;
 }
 
 h2 {
